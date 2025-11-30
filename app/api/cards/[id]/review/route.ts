@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { Rating, Grade } from 'ts-fsrs';
+import { Grade } from 'ts-fsrs';
 import { getCard, updateCard } from '@/lib/storage';
 import { isAuthenticated, validateApiToken } from '@/lib/auth';
 import { processReview, getReviewOptions } from '@/lib/fsrs';
